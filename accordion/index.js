@@ -152,12 +152,21 @@ $(document).ready(function(){
 	var tabs = $('div.tab1');
 	var contents = $('div.content1');
 
+<<<<<<< HEAD
 	for(var count = 1; count < tabs.length; count++){
 		$(tabs[count]).removeClass('tab2');
 	}
 	for(var count = 1; count < tabs.length; count++){
 		$(contents[count]).removeClass('content2');
 	}
+=======
+	// for (var i = 0; i < $(tabs).length; i++) {
+	// 	console.log(i);
+	// 	$(tabs[i]).on('click', function(event, i){
+	// 		myFunc(event, i);
+	// 	});
+	// }
+>>>>>>> 28db735871071636687bc0169e29aa0e22ca1318
 
 	for (var i = 0; i < $(tabs).length; i++) {
 		console.log(i);
