@@ -15,7 +15,12 @@
 	padding: 4px 7px 7px 7px;
 }
 
-
+div{
+	-webkit-transition: height 0.8s ease;
+    -moz-transition: height 0.8s ease;
+    -o-transition: height 0.8s ease;
+    transition: height 0.8s ease;
+}
 
 .tab1{
 	align-self: center;
