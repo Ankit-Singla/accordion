@@ -16,10 +16,17 @@
 }
 
 div{
-	-webkit-transition: height 0.8s ease;
-    -moz-transition: height 0.8s ease;
-    -o-transition: height 0.8s ease;
-    transition: height 0.8s ease;
+	-webkit-transition: height 0.8s ;
+    -moz-transition: height 0.8s ;
+    -o-transition: height 0.8s ;
+    transition: height 0.8s ;
+}
+
+p{
+	-webkit-transition: all 2s ;
+    -moz-transition: all 2s ;
+    -o-transition: all 2s ;
+    transition: all 2s ;
 }
 
 .tab1{
